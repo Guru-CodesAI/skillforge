@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# Environment variables — NEVER commit these
+.env
+.env.local
+backend/.env
+frontend/.env
+
+# Firebase service account — NEVER commit this
+backend/serviceAccountKey.json
+serviceAccountKey.json
+
+# Node
+node_modules/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
